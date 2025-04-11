@@ -11,7 +11,7 @@ app = Flask(__name__)
 app.secret_key = "llama4-scout-chatbot-secret-key"  # 用于session加密
 
 # 全局变量存储预加载的模型和tokenizer
-MODEL_ID = "../models/LLM-Research/Llama-4-Scout-17B-16E-Instruct"
+MODEL_ID = "./models/LLM-Research/Llama-4-Scout-17B-16E-Instruct"
 tokenizer = None
 model = None
 # 用于存储对话历史的字典
