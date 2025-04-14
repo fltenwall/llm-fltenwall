@@ -1,5 +1,9 @@
 # llm-fltenwall
 
+## Python Version
+
+python 3.12
+
 ## Install packages
 
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
